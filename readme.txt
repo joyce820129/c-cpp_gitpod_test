@@ -15,10 +15,12 @@ ls *.cpp
 
 git remote-v (?)
 
-git status
+//儲存資料
+ git status
+ git add .
+ git commit -m "update"
+ git push
 
-git add .
-
-git commit -m "update"
-
-git push
+//執行程式碼
+ g++ ex0-0.cpp
+ ./a.out
