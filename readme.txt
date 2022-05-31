@@ -16,3 +16,7 @@ ls *.cpp
 git remote-v (?)
 
 git push
+
+git commit -m "update"
+
+git status
