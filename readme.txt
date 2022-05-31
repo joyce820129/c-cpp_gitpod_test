@@ -17,6 +17,8 @@ git remote-v (?)
 
 git push
 
-git commit -m "update"
-
 git status
+
+git add .
+
+git commit -m "update"
