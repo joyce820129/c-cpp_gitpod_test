@@ -1,7 +1,7 @@
 //  This is CodingCoffee for C/C++ simple hello world gitpod example
 //  more courses : www.codingcoffee.org
 
-gcc ex0-0.c
+gcc ex0-0.c -lm
 
 g++ ex0-0.cpp
 
