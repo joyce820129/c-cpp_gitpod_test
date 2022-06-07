@@ -4,6 +4,7 @@ int timetotal(int hour, int min);
 int main()
 {
     int hour,min,mintotal;
+    printf("?小時 ?分鐘 \n");
     printf("小時= ");
     scanf("%d",&hour);
     printf("分鐘= ");
