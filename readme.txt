@@ -5,6 +5,9 @@ gcc ex0-0.c -lm
 
 g++ ex0-0.cpp
 
+//新增檔案
+nano 檔名.cpp
+
 rm a.out
 
 ls
@@ -23,4 +26,4 @@ git remote-v (?)
 
 //執行程式碼
  g++ ex0-0.cpp
- ./a.out
+ ./a.outgit add .
