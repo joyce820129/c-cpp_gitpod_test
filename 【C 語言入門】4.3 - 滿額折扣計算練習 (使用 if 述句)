@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int people,total;
+    int price = 300;
+    
+    printf("請輸入一桌的消費人數:");
+    scanf("%d",&people);
+    
+    total=people*price;
+    if(total>=3000.0){
+        printf("該桌顧客應付 %.0f 元",total*0.8);
+    }else{
+        printf("該桌顧客應付%d元",total);
+    }
+
+    return 0;
+}
